@@ -5,6 +5,11 @@
   font-family: DFkai-sb, sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 h1,
 h2,
 h3,
@@ -167,4 +172,35 @@ div.competition div.text h3 {
 
 #piechart {
   flex: 1 1 300px;
+}
+
+section.taiwan div h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+}
+
+section.taiwan div ul {
+  margin-left: 2rem;
+}
+
+.china div h3 {
+  font-size: 2rem;
+  color: rgb(12, 122, 92);
+}
+
+.china table,
+.china th,
+.china td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px 4px;
+}
+
+.china table {
+  min-width: 1000px;
+}
+
+.china th {
+  background-color: rgb(86, 224, 192);
+  color: white;
 }
